@@ -1,5 +1,6 @@
 ## Best, worst and average case
 
+Insertion, Merge, Heap, Quick, Selection, Bubble, Smooth Sort:
 [Wikipedia: Best, worst, and average case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
 
 Note: the 'O' below corresponds to 'Big theta'.
