@@ -91,8 +91,6 @@ for k-way merging.)
 
 Solution [here](http://www.bowdoin.edu/~ltoma/teaching/cs231/fall09/Homeworks/old/rest/H5-sol.pdf):
 
-```
-The straightforward solution is to pick the smallest of the top elements in each list, repeatedly. This takes k − 1 comparisons per element, in total O(kn).
-As the hint suggests, the idea for the “improved” solution is to keep the smallest element from each list in a heap; each element is augmented with the index of the lists where it comes from. We can perform a DeleteMin on the heap to find and delete the smallest element and insert the next element from the corresponding list.
-Analysis: It takes O(k) to build the heap; for every element, it takes O(lg k) to DeleteMin and O(lg k) to insert the next one from the same list. In total it takes O(k + n lg k) = O(n lg k).
-```
+> The straightforward solution is to pick the smallest of the top elements in each list, repeatedly. This takes k − 1 comparisons per element, in total O(kn).
+> As the hint suggests, the idea for the “improved” solution is to keep the smallest element from each list in a heap; each element is augmented with the index of the lists where it comes from. We can perform a DeleteMin on the heap to find and delete the smallest element and insert the next element from the corresponding list.
+> Analysis: It takes O(k) to build the heap; for every element, it takes O(lg k) to DeleteMin and O(lg k) to insert the next one from the same list. In total it takes O(k + n lg k) = O(n lg k).
